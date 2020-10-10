@@ -1,0 +1,65 @@
+The maximum sample data size is 30000
+
+	insertionSort(): already sorted - best case.
+	Data will NOT be randomized before use.
+         N	 repetitions	   sort(sec)
+      1000	      142722	    0.000007
+      2000	       77326	    0.000013
+      3000	       63068	    0.000016
+      4000	       55637	    0.000018
+      5000	       46114	    0.000022
+      6000	       34151	    0.000029
+      7000	       26803	    0.000037
+      8000	       24845	    0.000040
+      9000	       25424	    0.000039
+     10000	       20117	    0.000050
+     20000	       12908	    0.000077
+     30000	        7065	    0.000142
+
+	insertionSort(): randomized - average case.
+	Ranomized Data will be used during sorting.
+         N	 repetitions	   sort(sec)
+      1000	        1280	    0.000781
+      2000	         386	    0.002596
+      3000	         164	    0.006116
+      4000	          98	    0.010255
+      5000	          56	    0.017911
+      6000	          35	    0.028629
+      7000	          31	    0.033097
+      8000	          23	    0.044043
+      9000	          18	    0.058111
+     10000	          14	    0.073643
+     20000	           4	    0.267500
+     30000	           2	    0.578000
+
+	insertionSort(): sorted reversed - worst case.
+	Data will NOT be randomized before use.
+         N	 repetitions	   sort(sec)
+      1000	         745	    0.001344
+      2000	         163	    0.006141
+      3000	          68	    0.014868
+      4000	          46	    0.021913
+      5000	          31	    0.032323
+      6000	          20	    0.052100
+      7000	          15	    0.071067
+      8000	          12	    0.086333
+      9000	           9	    0.114222
+     10000	           8	    0.132625
+     20000	           2	    0.582000
+     30000	           1	    1.419000
+
+	quickSort(): randomized - average case.
+	Ranomized Data will be used during sorting.
+         N	 repetitions	   sort(sec)
+      1000	        6155	    0.000162
+      2000	        3064	    0.000326
+      3000	        1834	    0.000547
+      4000	        1113	    0.000898
+      5000	         795	    0.001258
+      6000	         624	    0.001604
+      7000	         496	    0.002016
+      8000	         502	    0.001992
+      9000	         369	    0.002710
+     10000	         378	    0.002651
+     20000	         182	    0.005511
+     30000	         106	    0.009453
